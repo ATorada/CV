@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosario&display=swap');
+
+body {
+    font-family: 'Rosario', sans-serif;
+    background-image: url(img/preview.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; 
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    padding-top: 1%;
+    margin-top: 5%;
+    border-top: 5px rgb(0, 0, 0) solid;
+    border-radius:100px;
+    background-color: rgba(255, 255, 255, 0.692);
+}
+
+hr {
+    color:rgb(255, 75, 165);
+}
+
+section.header p {
+    font-size: 15px;
+    margin-top: -1%;
+    margin-bottom: 5%;
+    color: rgb(46, 46, 46);
+}
+
+p, li {
+    font-size: 17px;
+}
+
+section {
+    
+    margin: auto;
+    height: 70%;
+    width: 70%;
+}
+
+section hr {
+    width:50%;
+}
+
+section.header hr {
+    width:100%;
+}
+
+
+p.Profile img {
+    border: black solid 3px;
+    border-radius: 50% 50% 50% 50% ;
+    width: 160px;
+    height: 160px;
+    flex: none;
+}
+
+h2 {
+    font-size: 40px;
+    margin-left: 5%;
+    clear: both;
+    flex: none;
+}
+
+h3.title {
+    color: rgb(46, 46, 46);
+    font-size: 25px;
+    margin-top: -3%;
+}
+
+h3{
+    margin-top: 5%;
+    color: rgb(46, 46, 46);
+    font-size: 25px;
+}
+
+
+
+span.destaca {
+    font-weight:bolder;
+    color: rgb(212, 41, 127);
+}
+
