@@ -1,11 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Rosario&display=swap');
 
+/* CSS Base de la página */
+
 body {
     font-family: 'Rosario', sans-serif;
     background-image: url(img/preview.jpg);
     background-position: center;
     background-repeat: no-repeat;
     height: 100%; 
+}
+
+h3{
+    margin-top: 5%;
+    color: rgb(46, 46, 46);
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-left: 5%;
+    clear: both;
+    flex: none;
 }
 
 main {
@@ -26,13 +41,6 @@ hr {
     color:rgb(255, 75, 165);
 }
 
-section.header p {
-    font-size: 15px;
-    margin-top: -1%;
-    margin-bottom: 5%;
-    color: rgb(46, 46, 46);
-}
-
 p, li {
     font-size: 17px;
 }
@@ -43,6 +51,50 @@ section {
     height: 70%;
     width: 70%;
 }
+
+/* CSS De contenido específico de la página */
+
+header p.dialog-1 {
+    position: absolute;
+    margin-top: -2%;
+    margin-left: 30%;
+}
+
+header p.dialog-2 {
+    position: absolute;
+    margin-top: -2%;
+    margin-left: 35%;
+}
+
+input[type=button].cerrar {
+margin-left: 45%;
+}
+
+input[type=button] {
+    border: 2px rgb(225, 0, 255) solid;
+    border-radius: 10px 10px 10px 10px;
+    background-color:rgb(255, 0, 255);
+    font-size: 120%;
+    color: white;
+}
+
+input[type=button]:hover {
+    border: 2px rgb(225, 0, 255) solid;
+    border-radius: 10px 10px 10px 10px;
+    background-color:rgb(255, 255, 255);
+    font-size: 120%;
+    color: rgb(0, 0, 0);
+}
+
+
+section.header p {
+    font-size: 15px;
+    margin-top: -1%;
+    margin-bottom: 5%;
+    color: rgb(46, 46, 46);
+}
+
+
 
 section hr {
     width:50%;
@@ -61,25 +113,12 @@ p.Profile img {
     flex: none;
 }
 
-h2 {
-    font-size: 40px;
-    margin-left: 5%;
-    clear: both;
-    flex: none;
-}
 
 h3.title {
     color: rgb(46, 46, 46);
     font-size: 25px;
     margin-top: -3%;
 }
-
-h3{
-    margin-top: 5%;
-    color: rgb(46, 46, 46);
-    font-size: 25px;
-}
-
 
 
 span.destaca {

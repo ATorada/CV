@@ -7,7 +7,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--Página creada por Ángel Torada como ejercicio de navidades-->
     <header>
+        <dialog id="dialog-1">
+            <object
+            type="application/pdf"
+            data="img/PDF.pdf"
+            style="width: 400px; height: 550px;">
+            ERROR (no puede mostrarse el objeto)
+          </object>
+          <br>
+          <a href="https://github.com/ATorada/CV/raw/main/img/PDF.pdf">Descarga alternativa</a>
+          <input class="cerrar" type="button" value="Cerrar" onclick="document.getElementById('dialog-1').removeAttribute('open')">
+        </dialog>
+
+          <p class="dialog-1">
+            <input type="button" value="PDF" onclick="document.getElementById('dialog-1').setAttribute('open', 'open')">
+          </p>
+
+          <dialog id="dialog-2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KYwf1jC1geA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <br>
+          <input class="cerrar" type="button" value="Cerrar" onclick="document.getElementById('dialog-2').removeAttribute('open')">
+        </dialog>
+
+          <p class="dialog-2">
+            <input type="button" value="Vídeo" onclick="document.getElementById('dialog-2').setAttribute('open', 'open')">
+          </p>
 
     </header>
 
@@ -46,6 +72,7 @@
                 <li>Título de la ESO</li>
                 <li>Título de A2 en Inglés (Nivel de Inglés Medio)</li>
                 <li>Título de Grado Medio de Sistemas Microinformáticos y Redes</li>
+                <li>Cursando Grado superior de Desarrollo de aplicaciones multiplataforma</li>
             </ul>
         </section>
 
